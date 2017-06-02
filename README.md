@@ -8,3 +8,8 @@ Python script which loaded a JSON file and outputted its contents into a .sql fi
 
 # dbconnect.php
 dbconnect.php is not included...
+
+# Tools / Technology Used
+* PHP
+* Python
+* MySQL
