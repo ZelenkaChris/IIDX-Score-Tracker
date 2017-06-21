@@ -5,12 +5,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-	<meta http-equiv="Content-Language" content="ja" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>ChrisZ's IIDX Scores</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Language" content="ja" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>ChrisZ's IIDX Scores</title>
 	</head>
 	<style>
 		body {
@@ -40,8 +40,7 @@
 							$row = $results->fetch_assoc();
 							$title = $row['title'];
 							$id = $row['ID'];
-                            echo "<option value=\"data.php?id=$id&diff=\">$title</option>\n";
-							
+							echo "<option value=\"data.php?id=$id&diff=\">$title</option>\n";
 							$i = $i + 1;
 						}
 					?>
@@ -52,15 +51,13 @@
 				</select>
 			</div>			
 		</div>
-		<iframe id="iframe" style="width: 100%; height: 750px; border: 0; overflow-x: hidden;">
-		</iframe>		
+			<iframe id="iframe" style="width: 100%; height: 750px; border: 0; overflow-x: hidden;">
+			</iframe>		
     </div> 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
   </body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>
 	// var select = document.createElement("select");
 	var iframe = document.getElementById("iframe");
@@ -95,17 +92,5 @@
 		var selector = document.getElementById("selector");
 		selector.style.width = '80%';
 	}
-</script>
-<style>
-
-</style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75024850-1', 'auto');
-  ga('send', 'pageview');
-</script>
+	</script>
 </html>
