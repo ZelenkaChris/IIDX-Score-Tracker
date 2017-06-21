@@ -56,11 +56,7 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>
-	// var select = document.createElement("select");
 	var iframe = document.getElementById("iframe");
-	// iframe.style.width = "100%";
-	// iframe.height = "750";
-	// iframe.style.border = "0";
 	$(".container").append(iframe);
 	iframe.src = $("#selector").val() + $("#diff_selector").val();
 	$("#selector").change(function(e){
