@@ -89,5 +89,5 @@
 		var selector = document.getElementById("selector");
 		selector.style.width = '80%';
 	}
-	</script>
+  </script>
 </html>
